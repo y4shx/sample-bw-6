@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_pYoGUNX5EemGuu_pJ_xhlw" targetNamespace="http://tns.tibco.com/bw/composite/HelloWorldMaven.module" name="HelloWorldMaven.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_qxk2QNX5EemGuu_pJ_xhlw" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qx8CoNX5EemGuu_pJ_xhlw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyDXYNX5EemGuu_pJ_xhlw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyKFENX5EemGuu_pJ_xhlw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qySn8NX5EemGuu_pJ_xhlw" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyZ8sNX5EemGuu_pJ_xhlw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qygqYNX5EemGuu_pJ_xhlw" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyn_INX5EemGuu_pJ_xhlw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyyXMNX5EemGuu_pJ_xhlw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_qKPJcNX5EemGuu_pJ_xhlw" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_qKQ-oNX5EemGuu_pJ_xhlw" processName="helloworldmaven.module.HelloWorld"/>
+  </sca:component>
+</sca:composite>
